@@ -28,5 +28,7 @@ public class ContactsController {
         Contact result = contactRepository.save(contact);
         return ResponseEntity.ok().body(result);
     }
+
+    // add delete and put mapping
 }
 
